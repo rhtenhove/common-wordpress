@@ -10,5 +10,5 @@ the Jetpack settings page, but that in turn will not have any effect as long as 
 
 As simple as:
 ```shell script
-wp plugin install https://github.com/rhtenhove/enfore-jetpack-sso/archive/master.zip
+wp plugin install https://github.com/rhtenhove/enforce-jetpack-sso/archive/master.zip
 ```

@@ -1,6 +1,14 @@
-# Enforce Jetpack Single-Sign-On
+# Common Wordpress 
 
-This plugin enforces the SSO setting in Jetpack, which cannot be set through the WP CLI.
+This plugin enables two settings to Wordpress which make life better in so many ways.
+
+## Disable automatic update emails
+
+Reduces Wordpress automated spam.
+
+## Enforce Jetpack Single-Sign-On
+
+This enforces the 2FA SSO setting in Jetpack, which cannot be set through the WP CLI.
 Installing and enabling this plugin does just that, making sure that that setting is enabled.
 
 This currently is not reflected in the Jetpack settings, so you can change the setting in
@@ -10,5 +18,5 @@ the Jetpack settings page, but that in turn will not have any effect as long as 
 
 As simple as:
 ```shell script
-wp plugin install https://github.com/rhtenhove/enforce-jetpack-sso/archive/master.zip
+wp plugin install https://github.com/rhtenhove/common-wordpress/archive/master.zip
 ```
